@@ -9,7 +9,7 @@ import {
   reviewSchema,
   validateWithZodSchema,
 } from './schemas';
-import { deleteImage, uploadImage } from './supabase';
+import { deleteImage, uploadImage } from './mongodb';
 import { revalidatePath } from 'next/cache';
 import { Cart } from '@prisma/client';
 const getAuthUser = async () => {

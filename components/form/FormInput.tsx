@@ -22,7 +22,6 @@ function FormInput({
         {label || name}
       </Label>
       <Input
-        // id={name}
         name={name}
         type={type}
         defaultValue={defaultValue}
